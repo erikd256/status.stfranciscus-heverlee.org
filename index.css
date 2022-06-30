@@ -284,7 +284,7 @@ footer a {
 .tooltip .tooltipDescription {
   margin-top: 12px;
   font-size: 14px;
-  color: var(--basiskleur);
+  color: var(--vierdekleur);
 }
 
 .tooltip #tooltipStatus {
