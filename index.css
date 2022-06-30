@@ -174,7 +174,10 @@ footer a {
   font-size: 14px;
   color: var(--basiskleur);
 }
-
+.sectionUrl a{
+  font-size: 14px;
+  color: var(--basiskleur);
+}
 .statusTitle {
   text-transform: uppercase;
   color: var(--basiskleur);
@@ -210,9 +213,6 @@ footer a {
   color: #331804;
 }
 
-.sectionUrl a{
-  color: #331804;
-}
 
 .uptimeContainer {
   color: var(--vierdekleur);
