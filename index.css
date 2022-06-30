@@ -235,7 +235,7 @@ footer a {
 
 .nodata {
   background-color: #f8f8f8;
-  color: var(--vijfdekleur);
+  color: var(--basiskleur);
 }
 
 .partial {
