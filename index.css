@@ -172,6 +172,7 @@ footer a {
 
 .sectionUrl {
   font-size: 14px;
+  color: var(--vierdekleur);
 }
 
 .statusTitle {
