@@ -9,6 +9,7 @@ sites:
     url: https://assets.tina.io
   - name: API
     url: $API_URL
+    method: POST
   - name: Analytics
     url: $ANALYTICS_URL
 status-website:
