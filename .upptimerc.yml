@@ -6,6 +6,7 @@ sites:
     url: https://stfranciscus-heverlee.org
   - name: CDN
     url: https://assets.tina.io
+    test: "tcp-ping"
   - name: API
     url: $API_URL
   - name: Analytics
