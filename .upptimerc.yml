@@ -8,9 +8,9 @@ sites:
   - name: CDN
     url: https://assets.tina.io
   - name: API
-    url: $SECRET_SITE1
+    url: $API_URL
   - name: Analytics
-    url: $SECRET_SITE2
+    url: $ANALYTICS_URL
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
