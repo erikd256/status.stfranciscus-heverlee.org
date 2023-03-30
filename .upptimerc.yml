@@ -6,9 +6,12 @@ sites:
     url: https://stfranciscus-heverlee.org
   - name: CDN
     url: https://assets.tina.io
-    test: "tcp-ping"
+    expectedStatusCodes:
+      - 404
   - name: API
     url: $API_URL
+    expectedStatusCodes:
+      - 500
   - name: Analytics
     url: $ANALYTICS_URL
 status-website:
