@@ -23,19 +23,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cdn",
     "status": "up",
-    "uptime": "94.53%",
-    "uptimeDay": "94.53%",
-    "uptimeWeek": "94.53%",
-    "uptimeMonth": "94.53%",
-    "uptimeYear": "94.53%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 345,
     "timeDay": 345,
     "timeWeek": 345,
     "timeMonth": 345,
     "timeYear": 345,
-    "dailyMinutesDown": {
-      "2023-03-30": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "API",
@@ -43,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "94.58%",
-    "uptimeDay": "94.58%",
-    "uptimeWeek": "94.58%",
-    "uptimeMonth": "94.58%",
-    "uptimeYear": "94.58%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 824,
     "timeDay": 824,
     "timeWeek": 824,
     "timeMonth": 824,
     "timeYear": 824,
-    "dailyMinutesDown": {
-      "2023-03-30": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Analytics",
