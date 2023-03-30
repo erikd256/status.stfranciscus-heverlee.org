@@ -5,11 +5,11 @@ sites:
   - name: Homepage
     url: https://stfranciscus-heverlee.org
   - name: CDN
-    test: "tcp-ping"
+    check: "tcp-ping"
     url: assets.tina.io
     port: 443
   - name: API
-    test: "tcp-ping"
+    check: "tcp-ping"
     url: $API_URL
     port: 443
   - name: Analytics
