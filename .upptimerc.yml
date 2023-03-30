@@ -5,13 +5,13 @@ sites:
   - name: Homepage
     url: https://stfranciscus-heverlee.org
   - name: CDN
-    url: https://assets.tina.io
-    expectedStatusCodes:
-      - 404
+    test: "tcp-ping"
+    url: assets.tina.io
+    port: 443
   - name: API
+    test: "tcp-ping"
     url: $API_URL
-    expectedStatusCodes:
-      - 500
+    port: 443
   - name: Analytics
     url: $ANALYTICS_URL
 status-website:
@@ -20,9 +20,9 @@ status-website:
   cname: status.stfranciscus-heverlee.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Status @ St.-Franciscusparochie Heverlee
+  introTitle: "Status @ Sint-Franciscusparochie Heverlee"
+  introMessage: Hier kan je terugvinden of een van onze services offline is of dat misschien toch jouw internetverbinding hapert.
   navbar:
     - title: Status
       href: /
