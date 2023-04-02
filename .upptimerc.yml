@@ -23,6 +23,7 @@ status-website:
   logoUrl: https://www.stfranciscus-heverlee.org/icon.svg
   name: Status @ St.-Franciscusparochie Heverlee
   faviconSvg: https://www.stfranciscus-heverlee.org/icon.svg
+  favicon: https://www.stfranciscus-heverlee.org/favicon.ico
   introTitle: "Status @ Sint-Franciscusparochie Heverlee"
   introMessage: Hier kan je terugvinden of een van onze services offline is of dat misschien toch jouw internetverbinding hapert.
   navbar:
