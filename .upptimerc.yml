@@ -48,7 +48,7 @@ i18n:
   liveStatus: Live-status
   overallUptime: "Gemmidelde beschikbaarheid: $UPTIME"
   overallUptimeTitle: Gemiddelde beschikbaarheid
-  averageResponseTime: "Gemiddelde reactietijd: $ TIMEms"
+  averageResponseTime: "Gemiddelde reactietijd: $TIMEms"
   averageResponseTimeTitle: Gemiddelde reactietijd
   sevelDayResponseTime: 7-dagen gemiddelde reactietijd
   responseTimeMs: Reactietijd (ms)
