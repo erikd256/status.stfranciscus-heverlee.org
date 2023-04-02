@@ -29,6 +29,8 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Homepage
+      href: https://stfranciscus-heverlee.org
   robotsText: "User-agent: * \n Disallow: /"
 i18n:
   activeIncidents: Actieve Incidenten
