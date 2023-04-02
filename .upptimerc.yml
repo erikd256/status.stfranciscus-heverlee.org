@@ -30,17 +30,54 @@ status-website:
       href: https://github.com/$OWNER/$REPO
   robotsText: "User-agent: * \n Disallow: /"
 i18n:
-  history: "Geschiedenis"
-  responseTime: "Response Time"
-  uptime: "Uptime"
-  up: "🟩 Online"
-  degraded: "🟨 Trage reactie"
-  down: "🟥 Offline"
-  allSystemsOperational: "🟩 Alle systemen online en functioneel."
-  degradedPerformance: "🟨 Oepsie, een van onze systemen reageert traag, eventueel ervaar je problemen bij het gebruiken van onze website."
-  completeOutage: "🟥 Oepsie, al onze systemen zijn offline, eventueel ervaar je problemen bij het gebruiken van onze website."
-  partialOutage: "🟧 Oepsie, een van onze systemen is offline, eventueel ervaar je problemen bij het gebruiken van onze website."
-  activeIncidents: "Actieve Incidenten"
+  activeIncidents: Actieve Incidenten
+  allSystemsOperational: Alle systemen operationeel
+  incidentReport: "Incident #$NUMBER rapport →"
+  activeIncidentSummary: Geopend op $DATE met $POSTS-berichten
+  incidentTitle: Incident $NUMBER Details
+  incidentDetails: Incident Details
+  incidentFixed: Opgelost
+  incidentOngoing: Voortdurend
+  incidentOpenedAt: Geopend op
+  incidentClosedAt: Opgelost op
+  incidentViewOnGitHub: Bekijk en abonneer op GitHub
+  incidentCommentSummary: Gecommenteerd op $DATE door $AUTHOR
+  incidentBack: ← Terug naar alle incidenten
+  pastIncidents: Verleden incidenten
+  pastIncidentsResolved: Opgelost in $MINUTES minuten met $POSTS posts
+  liveStatus: Live-status
+  overallUptime: "Gemmidelde beschikbaarheid: $UPTIME"
+  overallUptimeTitle: Gemiddelde beschikbaarheid
+  averageResponseTime: "Gemiddelde reactietijd: $ TIMEms"
+  averageResponseTimeTitle: Gemiddelde reactietijd
+  sevelDayResponseTime: 7-dagen gemiddelde reactietijd
+  responseTimeMs: Reactietijd (ms)
+  up: Online
+  down: Offline
+  degraded: Verslechterd
+  ms: ms
+  loading: Laden
+  navGitHub: GitHub
+  footer:  Deze pagina is [open source]($REPO), mogelijk gemaakt door [Upptime](https://upptime.js.org)
+  errorTitle: Een fout is opgetreden
+  errorIntro: Er is een fout opgetreden bij het laden van de laatste statusdetails.
+  errorText: Probeer het binnen enkele ogenblikken opnieuw.
+  errorHome: Ga naar de homepage
+  pastScheduledMaintenance: Eerder gepland onderhoud
+  scheduledMaintenance: Gepland onderhoud
+  scheduledMaintenanceSummaryStarted: Gestart om $DATE voor $DURATION minuten
+  scheduledMaintenanceSummaryStarts: Begint om $DATE voor $DURATION minuten
+  startedAt: Gestart om
+  startsAt: Start om
+  duration: Duur
+  durationMin: $DURATION minuten
+  incidentCompleted: Voltooid
+  incidentScheduled: Gepland
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1j
+  durationAll: tot.
 commitMessages:
   commitAuthorName: "Erik D."
   commitAuthorEmail: "62072464+erikd256@users.noreply.github.com"
