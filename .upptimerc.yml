@@ -30,8 +30,8 @@ status-website:
       href: https://github.com/$OWNER/$REPO
   robotsText: "User-agent: * \n Disallow: /"
 i18n:
-  activeIncidents: Incidentes activos
-  allSystemsOperational: Todos los sistemas están operativos
+  activeIncidents: Oepsie, een van onze systemen is offline, eventueel ervaar je problemen bij het gebruiken van onze website.
+  allSystemsOperational: Alle systemen online en functioneel.
 commitMessages:
   commitAuthorName: "Erik D."
   commitAuthorEmail: "62072464+erikd256@users.noreply.github.com"
