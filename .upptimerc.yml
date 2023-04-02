@@ -29,5 +29,11 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   robotsText: "User-agent: * \n Disallow: /"
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas están operativos
+commitMessages:
+  commitAuthorName: "Erik D."
+  commitAuthorEmail: "62072464+erikd256@users.noreply.github.com"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
