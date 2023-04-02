@@ -30,7 +30,7 @@ status-website:
       href: https://github.com/$OWNER/$REPO
   robotsText: "User-agent: * \n Disallow: /"
 i18n:
-history: "Geschiedenis"
+  history: "Geschiedenis"
   responseTime: "Response Time"
   uptime: "Uptime"
   up: "🟩 Online"
