@@ -6,7 +6,7 @@ sites:
     url: https://stfranciscus-heverlee.org
   - name: CDN
     check: "tcp-ping"
-    url: assets.tina.io
+    url:  $CDN_URL
     port: 443
   - name: API
     check: "tcp-ping"
