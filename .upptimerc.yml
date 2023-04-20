@@ -51,7 +51,7 @@ i18n:
   pastIncidents: Verleden incidenten
   pastIncidentsResolved: Opgelost in $MINUTES minuten met $POSTS posts
   liveStatus: Live-status
-  overallUptime: "Gemmidelde beschikbaarheid: $UPTIME"
+  overallUptime: "Gemiddelde beschikbaarheid: $UPTIME"
   overallUptimeTitle: Gemiddelde beschikbaarheid
   averageResponseTime: "Gemiddelde reactietijd: $TIMEms"
   averageResponseTimeTitle: Gemiddelde reactietijd
@@ -75,7 +75,7 @@ i18n:
   startedAt: Gestart om
   startsAt: Start om
   duration: Duur
-  durationMin: $DURATION minuten
+  durationMin: $DURAT© 2022 - 2023 erikd256ION minuten
   incidentCompleted: Voltooid
   incidentScheduled: Gepland
   duration24H: 24h
