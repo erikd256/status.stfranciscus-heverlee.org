@@ -1,7 +1,7 @@
 url: $ANALYTICS_URL
-status: down
-code: 502
-responseTime: 765
-lastUpdated: 2023-05-05T14:47:38.673Z
+status: up
+code: 200
+responseTime: 663
+lastUpdated: 2023-05-05T14:55:08.894Z
 startTime: Thu Mar 30 2023 18:28:04 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
