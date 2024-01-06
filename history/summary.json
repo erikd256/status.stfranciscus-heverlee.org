@@ -4,19 +4,19 @@
     "url": "https://stfranciscus-heverlee.org",
     "icon": "https://icons.duckduckgo.com/ip3/stfranciscus-heverlee.org.ico",
     "slug": "homepage",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.70%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.50%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 466,
-    "timeDay": 466,
-    "timeWeek": 414,
-    "timeMonth": 388,
-    "timeYear": 466,
+    "time": 465,
+    "timeDay": 422,
+    "timeWeek": 405,
+    "timeMonth": 386,
+    "timeYear": 465,
     "dailyMinutesDown": {
-      "2024-01-06": 4
+      "2024-01-06": 7
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "$API_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 48,
-    "timeDay": 6,
+    "timeDay": 4,
     "timeWeek": 4,
-    "timeMonth": 12,
+    "timeMonth": 11,
     "timeYear": 48,
     "dailyMinutesDown": {
-      "2024-01-06": 1
+      "2024-01-06": 3
     }
   },
   {
@@ -74,7 +74,7 @@
     "timeMonth": 0,
     "timeYear": 3312,
     "dailyMinutesDown": {
-      "2024-01-06": 826,
+      "2024-01-06": 829,
       "2024-01-05": 1440,
       "2024-01-04": 1440,
       "2024-01-03": 1440,
