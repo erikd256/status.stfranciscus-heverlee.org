@@ -20,7 +20,6 @@ status-website:
   cname: status.stfranciscus-heverlee.org
   themeUrl: https://cdn.jsdelivr.net/gh/erikd256/status.stfranciscus-heverlee.org@cb89f6b71d8b98b979b2aaa19457369791a0b81b/assets/custom.css
   # baseUrl: /your-repo-name
-  customHeadHtml: <script async src="https://analytics.stfranciscus-heverlee.org/script.js" data-website-id="dcecc4cb-067f-43a2-b23c-449f44d24c60"></script>
   logoUrl: https://www.stfranciscus-heverlee.org/icon.svg
   name: Status @ St.-Franciscusparochie Heverlee
   faviconSvg: https://www.stfranciscus-heverlee.org/icon.svg
