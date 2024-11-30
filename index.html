@@ -1,15 +1,17 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Status Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="favicon" href="logo.svg" />
     <script src="index.js"></script>
   </head>
   <body>
     <div class="pageContainer">
       <div class="headline">
         <img src="logo.svg" alt="Logo" height="100px" />
-        <span> System Status </span>
+        <span> Werkt er iets niet? </span>
       </div>
       <div id="reports" class="reportContainer"></div>
       <div id="tooltip" class="tooltip" style="opacity: 0">
@@ -41,11 +43,18 @@
         </div>
       </div>
     </div>
+    <div class="pageContainer">
+      <div class="headline">
+        <span>Foutmeldingen – Aangekondigingen</span>
+      </div>
+    <div></div>
+    </div>
     <footer>
       Based on
       <a href="https://github.com/statsig-io/statuspage/"
         >Statsig's <b>more-than-amazing</b> Open-Source Status Page</a
-      >.
+      >.</br></br>
+      <img src="https://github.com/erikd256/status.stfranciscus-heverlee.org/actions/workflows/health-check.yml/badge.svg"/>
     </footer>
   </body>
   <script>
