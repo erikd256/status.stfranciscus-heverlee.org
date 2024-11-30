@@ -8,7 +8,7 @@ async function genReportLog(container, key, url) {
   }
 
   const normalized = normalizeData(statusLines);
-  const statusStream = constructStatusStream(key.replace("_", " "), url, normalized);
+  const statusStream = constructStatusStream(key, url, normalized);
   container.appendChild(statusStream);
 }
 
@@ -38,7 +38,7 @@ function constructStatusLine(key, relDay, upTimeArray) {
   let date = new Date();
   date.setDate(date.getDate() - relDay);
 
-  return constructStatusSquare(key, date, upTimeArray);
+  return constructStatusSquare(key.replace(/_/g, " "), date, upTimeArray);
 }
 
 function getColor(uptimeVal) {
