@@ -295,7 +295,9 @@ footer a {
   border-top: 1px solid #ededed;
   margin-top: 16px;
 }
-
+a{
+  text-decoration: none;
+}
 @media screen and (max-width: 800px) {
   .pageContainer {
     padding: 30px 20px;
