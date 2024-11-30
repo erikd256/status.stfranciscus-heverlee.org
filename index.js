@@ -108,26 +108,26 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "No Data Available"
+    ? "Geen testdata beschikbaar"
     : color == "success"
-    ? "Fully Operational"
+    ? "Werkt zoals het moet"
     : color == "failure"
-    ? "Major Outage"
+    ? "Oepsie"
     : color == "partial"
-    ? "Partial Outage"
-    : "Unknown";
+    ? "Soms werkt het, soms niet... Pech!"
+    : "Ajajaja, de website is cookies gaan zoeken";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "Geen data beschikbaar, geen tests uitgevoerd :)"
     : color == "success"
-    ? "No downtime recorded on this day."
+    ? "Alles perfekt, als je de cookies accepteert ;)"
     : color == "failure"
-    ? "Major outages recorded on this day."
+    ? "Oepsie, ook wij maken fouten, ja?"
     : color == "partial"
-    ? "Partial outages recorded on this day."
-    : "Unknown";
+    ? "Waarom werkte dit nu 3 Minuten geleden?"
+    : "Geen flauw idee wat er gebeurt";
 }
 
 function getTooltip(key, date, quartile, color) {
