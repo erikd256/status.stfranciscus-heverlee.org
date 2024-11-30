@@ -38,7 +38,7 @@ function constructStatusLine(key, relDay, upTimeArray) {
   let date = new Date();
   date.setDate(date.getDate() - relDay);
 
-  return constructStatusSquare(key.replace(/_/g, " "), date, upTimeArray);
+  return constructStatusSquare(key.replace(/-/g, " "), date, upTimeArray);
 }
 
 function getColor(uptimeVal) {
