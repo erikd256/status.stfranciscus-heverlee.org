@@ -1,4 +1,4 @@
-name: Scheduled Health Check
+name: Online Zelftests
 
 # Controls when the action will run.
 on:
