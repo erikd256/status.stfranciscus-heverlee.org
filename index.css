@@ -28,7 +28,14 @@ body {
 }
 #tooltip{
   background-color: var(--derdekleur);
-  color: var(--derdekleur);
+  color: var(--basiskleur);
+}
+#issuesCounter{
+  background-color: red;
+  color: var(--vijfdekleur);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
 }
 h1,
 h2,

@@ -1,5 +1,6 @@
 const maxDays = 30;
 
+
 async function genReportLog(container, key, url) {
   const response = await fetch("logs/" + key + "_report.log");
   let statusLines = "";
@@ -246,7 +247,20 @@ async function genAllReports() {
     if (!key || !url) {
       continue;
     }
-
     await genReportLog(document.getElementById("reports"), key, url);
   }
 }
+
+var urlToGetAllOpenBugs = "https://api.github.com/repos/erikd256/stfranciscusheverlee/issues?state=open&labels=downtime";
+
+$(document).ready(function () {
+  $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
+      $("#issuesCounter").append(allIssues.length);
+      $.each(allIssues, function (i, issue) {
+          $("#issues")
+              .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
+              .append("created at: " + issue.created_at + "</br>")
+              .append(issue.body + "</br></br></br>");
+      });
+  });
+});    
