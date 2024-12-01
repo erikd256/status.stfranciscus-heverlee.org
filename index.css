@@ -26,6 +26,10 @@ body {
   text-align: center;
   transition: opacity 0.3s;
 }
+#tooltip{
+  background-color: var(--derdekleur);
+  color: var(--derdekleur);
+}
 h1,
 h2,
 h3,
@@ -204,7 +208,7 @@ footer a {
 .statusUptime {
   flex: 1;
   text-align: right;
-  color: #7c7c7c;
+  color: var(--vierdekleur);
   font-size: 12px;
 }
 
@@ -233,8 +237,8 @@ footer a {
 }
 
 .nodata {
-  background-color: #f8f8f8;
-  color: #ccc;
+  background-color: var(--liturgischekleur);
+  color: var(--basiskleur);
 }
 
 .partial {
