@@ -203,6 +203,8 @@ footer a {
   font-size: 12px;
   font-weight: 700;
   margin-left: 12px;
+  color: var(--derdekleur);
+  background-color: var(--basiskleur);
 }
 
 .statusUptime {
@@ -224,8 +226,6 @@ footer a {
   border-top: 1px dashed var(--derdekleur);
   width: 100%;
   margin: 10px;
-  color: var(--derdekleur);
-  background-color: var(--basiskleur);
 }
 
 .success {
