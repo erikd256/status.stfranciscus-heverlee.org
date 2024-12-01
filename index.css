@@ -5,12 +5,12 @@ html {
   flex-direction: column;
 }
 :root{
-  --basiskleur: '#331804';
-  --liturgischekleur: '#CB904D';
-  --derdekleur: '#DFCC74';
-  --vierdekleur: '#51A3A3';
-  --vijfdekleur: '#E2E0CB';
-  --ghblack: '#262626';
+  --basiskleur: #331804;
+  --liturgischekleur: #CB904D;
+  --derdekleur: #DFCC74;
+  --vierdekleur: #51A3A3;
+  --vijfdekleur: #E2E0CB;
+  --ghblack: #262626;
 }
 body {
   background-color: var(--basiskleur);
@@ -76,14 +76,14 @@ h5 {
   margin-bottom: 4px;
 }
 h6 {
-  color: #3b3b3b;
+  color: var(--vijfdekleur);
   font-size: 16px;
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 4px;
 }
 a {
-  color: #194b7d;
+  color: var(--vierdekleur);
   text-decoration: none;
 }
 
