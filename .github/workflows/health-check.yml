@@ -2,6 +2,7 @@ name: Online Zelftests
 
 # Controls when the action will run.
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
   
