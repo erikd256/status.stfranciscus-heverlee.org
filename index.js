@@ -257,7 +257,7 @@ $(document).ready(function () {
   $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
       $("#issuesCounter").append(allIssues.length);
       if(allIssues.length !== 0){
-        $("#issuesContainer").style("display", "none")
+        $("#issuesBlock").style("display", "hidden")
       }
       $.each(allIssues, function (i, issue) {
           $("#issues")
