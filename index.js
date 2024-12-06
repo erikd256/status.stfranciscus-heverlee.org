@@ -252,17 +252,30 @@ async function genAllReports() {
 }
 
 var urlToGetAllOpenBugs = "https://api.github.com/repos/erikd256/stfranciscusheverlee/issues?state=open&labels=downtime";
+var urlToGetAllClosedBugs = "https://api.github.com/repos/erikd256/stfranciscusheverlee/issues?state=closed&labels=downtime";
 
 $(document).ready(function () {
-  $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
+  $.getJSON(urlToGetAllClosedBugs, function (allIssues) {
       $("#issuesCounter").append(allIssues.length);
       if(allIssues.length == 0){
         $("#issuesBlock").hide()
       }
       $.each(allIssues, function (i, issue) {
-          $("#issues")
+          $(".issuesContainer")
               .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
-              .append("created at: " + issue.created_at + "</br>")
+              .append(issue.body + "</br></br></br>");
+      });
+  });
+});    
+$(document).ready(function () {
+  $.getJSON(urlToGetAllClosedBugs, function (allIssues) {
+      $("#pastissuesCounter").append(allIssues.length);
+      if(allIssues.length == 0){
+        $("#pastissuesBlock").hide()
+      }
+      $.each(allIssues, function (i, issue) {
+          $(".pastissuesContainer")
+              .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
               .append(issue.body + "</br></br></br>");
       });
   });
