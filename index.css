@@ -31,9 +31,9 @@ body {
   color: var(--basiskleur);
 }
 #issuesCounter{
-  background-color: red;
-  color: var(--vijfdekleur);
-  border-radius: 100%;
+  background-color: var(--liturgischekleur);
+  color: var(--derdekleur);
+  border-radius: 5px;
   width: 20px;
   height: 20px;
 }
@@ -149,22 +149,49 @@ footer a {
   text-transform: uppercase;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--basiskleur);
+  background-color: var(--derdekleur);
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 6px;
+}
+
+.container span {
+  border-radius: 5px;
+  padding: 6px;
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container img{
+  display: inline
+}
 .reportContainer {
   margin: 30px auto;
   width: 100%;
 }
 
 .statusContainer {
-  border: 1px solid var(--basiskleur);
+  border: 1px solid var(--derdekleur);
   border-radius: 5px;
   padding-top: 20px;
   text-align: left;
   padding: 24px;
+  margin-top: 20px;
 }
 
-.statusContainer + .statusContainer {
-  border-top: 1px solid var(--basiskleur);
-  margin-top: 30px;
+.issuesContainer {
+  border: 1px solid var(--derdekleur);
+  border-radius: 5px;
+  padding-top: 20px;
+  text-align: left;
+  padding: 24px;
+  margin-top: 20px;
 }
 
 .statusStreamContainer {

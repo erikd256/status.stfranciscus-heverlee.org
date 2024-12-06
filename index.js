@@ -2,7 +2,7 @@ const maxDays = 30;
 
 
 async function genReportLog(container, key, url) {
-  const response = await fetch("logs/" + key + "_report.log");
+  const response = await fetch("https://raw.githubusercontent.com/erikd256/status.stfranciscus-heverlee.org/refs/heads/main/logs/" + key + "_report.log");
   let statusLines = "";
   if (response.ok) {
     statusLines = await response.text();
@@ -238,7 +238,7 @@ function hideTooltip() {
 }
 
 async function genAllReports() {
-  const response = await fetch("urls.cfg");
+  const response = await fetch("https://raw.githubusercontent.com/erikd256/status.stfranciscus-heverlee.org/refs/heads/main/urls.cfg");
   const configText = await response.text();
   const configLines = configText.split("\n");
   for (let ii = 0; ii < configLines.length; ii++) {
@@ -256,6 +256,9 @@ var urlToGetAllOpenBugs = "https://api.github.com/repos/erikd256/stfranciscushev
 $(document).ready(function () {
   $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
       $("#issuesCounter").append(allIssues.length);
+      if(allIssues.length !== 0){
+        $("#issuesContainer").style("display", "none")
+      }
       $.each(allIssues, function (i, issue) {
           $("#issues")
               .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
