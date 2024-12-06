@@ -30,7 +30,7 @@ body {
   background-color: var(--derdekleur);
   color: var(--basiskleur);
 }
-#issuesCounter{
+#issuesCounter,#pastissuesCounter{
   background-color: var(--liturgischekleur);
   color: var(--derdekleur);
   border-radius: 5px;
@@ -185,7 +185,7 @@ footer a {
   margin-top: 20px;
 }
 
-.issuesContainer {
+.issuesContainer,.pastissuesContainer{
   border: 1px solid var(--derdekleur);
   border-radius: 5px;
   padding-top: 20px;
