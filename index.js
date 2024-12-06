@@ -256,8 +256,8 @@ var urlToGetAllOpenBugs = "https://api.github.com/repos/erikd256/stfranciscushev
 $(document).ready(function () {
   $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
       $("#issuesCounter").append(allIssues.length);
-      if(allIssues.length !== 0){
-        $("#issuesBlock").style("display", "hidden")
+      if(allIssues.length == 0){
+        $("#issuesBlock").hide()
       }
       $.each(allIssues, function (i, issue) {
           $("#issues")
