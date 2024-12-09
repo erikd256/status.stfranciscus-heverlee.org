@@ -30,13 +30,6 @@ body {
   background-color: var(--derdekleur);
   color: var(--basiskleur);
 }
-#issuesCounter,#pastissuesCounter{
-  background-color: var(--liturgischekleur);
-  color: var(--derdekleur);
-  border-radius: 5px;
-  width: 20px;
-  height: 20px;
-}
 h1,
 h2,
 h3,
@@ -128,7 +121,7 @@ footer a {
   border-radius: 5px;
   max-width: 900px;
   width: 100%;
-  margin: 96px auto;
+  margin: 20px auto;
 }
 
 .headline {
@@ -376,4 +369,25 @@ a{
     min-width: 4px;
     width: 100%;
   }
+}
+.issuesContainerHeading{
+  height: 75px;
+}
+.issuesContainerHeading button{
+  background-color: var(--derdekleur);
+  border: 1px solid var(--basiskleur);
+  cursor: default;
+}
+.border-solid{
+  border: 1px solid var(--basiskleur);
+  text-transform: lowercase;
+  padding: 15px;
+}
+hr{
+  background-color: var(--derdekleur);
+  width: auto;
+  opacity: 1;
+  position: relative;
+  top: 10;
+  left: 0;
 }

@@ -4,6 +4,7 @@
     <title>Status Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="logo.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" />
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="index.js"></script>
@@ -15,7 +16,7 @@
         <span> Werkt er iets niet? </span>
       </div>
       <div class="container">
-      <span>Laatste wijzigingen: <img height="20px" src="https://vercelbadge.vercel.app/api/erikd256/stfranciscusheverlee"/></span>
+      <span class="border-solid">Laatste wijzigingen: <img height="20px" src="https://vercelbadge.vercel.app/api/erikd256/stfranciscusheverlee"/></span>
       </div>
       <div id="reports" class="reportContainer"></div>
       <div id="tooltip" class="tooltip" style="opacity: 0">
@@ -48,16 +49,20 @@
       </div>
     </div>
     <div class="pageContainer" id="issuesBlock">
-    <div class="container">
-        <span>Foutmeldingen – Aankondigingen</span><span id="issuesCounter"></span>
+    <div class="container issuesContainerHeading">
+        <button class="position-relative">Foutmeldingen – Aankondigingen
+          <span id="issuesCounter" class="position-absolute top-0 start-97 translate-middle badge bg-danger"></span>
+        </button>
     </div>
     <div id="issues">
       <div class="issuesContainer" id="geenaank"></div>
     </div>
     </div>
     <div class="pageContainer" id="pastissuesBlock">
-      <div class="container">
-          <span>Verleden Problemen</span><span id="pastissuesCounter"></span>
+      <div class="container issuesContainerHeading">
+          <button class="position-relative">Verleden Problemen
+            <span id="pastissuesCounter" class="position-absolute top-0 start-95 translate-middle badge bg-danger"></span>
+          </button>
       </div>
       <div id="issues">
         <div class="pastissuesContainer" id="geenaank"></div>

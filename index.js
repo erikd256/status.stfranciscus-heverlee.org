@@ -255,15 +255,15 @@ var urlToGetAllOpenBugs = "https://api.github.com/repos/erikd256/stfranciscushev
 var urlToGetAllClosedBugs = "https://api.github.com/repos/erikd256/stfranciscusheverlee/issues?state=closed&labels=downtime";
 
 $(document).ready(function () {
-  $.getJSON(urlToGetAllClosedBugs, function (allIssues) {
+  $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
       $("#issuesCounter").append(allIssues.length);
       if(allIssues.length == 0){
         $("#issuesBlock").hide()
       }
       $.each(allIssues, function (i, issue) {
           $(".issuesContainer")
-              .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
-              .append(issue.body + "</br></br></br>");
+              .append("<h4>#" + issue.number +" - " + issue.title.split("|")[0] + "<span class='badge bg-warning text-dark'>" + issue.title.split("|")[1].replace(" ", "").replace("_","-") + "</span></h4></br>")
+              .append("<h5>" + issue.body + "</h5></br><hr></hr>");
       });
   });
 });    
@@ -275,8 +275,8 @@ $(document).ready(function () {
       }
       $.each(allIssues, function (i, issue) {
           $(".pastissuesContainer")
-              .append("<b>" + issue.number + " - " + issue.title + "</b></br>")
-              .append(issue.body + "</br></br></br>");
+          .append("<h4>#" + issue.number +" - " + issue.title.split("|")[0] + "<span class='badge bg-success text-dark'>" + issue.title.split("|")[1].replace(" ", "").replace("_","-") + "</span></h4></br>")
+          .append("<h5>" + issue.body + "</h5></br><hr></hr>");
       });
   });
 });    
