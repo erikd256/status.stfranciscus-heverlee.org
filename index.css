@@ -185,6 +185,7 @@ footer a {
   text-align: left;
   padding: 24px;
   margin-top: 20px;
+  overflow-x: hidden;
 }
 
 .statusStreamContainer {
@@ -385,9 +386,9 @@ a{
 }
 hr{
   background-color: var(--derdekleur);
-  width: auto;
+  width: 125%;
   opacity: 1;
+  left: -24px;
   position: relative;
-  top: 10;
-  left: 0;
+  top: 0;
 }
