@@ -188,6 +188,10 @@ footer a {
   overflow-x: hidden;
 }
 
+.issues-a{
+  text-decoration: underline;
+  color: var(--derdekleur);
+}
 .statusStreamContainer {
   display: flex;
   justify-content: space-between;

@@ -263,8 +263,8 @@ $(document).ready(function () {
       $.each(allIssues, function (i, issue) {
           $(".issuesContainer")
               .append("<h4>#" + issue.number +" - " + issue.title.split("|")[0] + "<span class='badge bg-warning text-dark'>" + issue.title.split("|")[1].replace(" ", "").replace("_","-") + "</span></h4></br>")
-              .append("<h5>" + issue.body + "</h5></br><hr></hr>");
-      });
+              .append("<h5>" + issue.body +"</h5></br><a target='_blank' class='issues-a' href='https://github.com/erikd256/stfranciscusheverlee/issues/"+issue.number+"'>Lees meer ...</a><hr></hr>");
+            });
   });
 });    
 $(document).ready(function () {
@@ -276,7 +276,7 @@ $(document).ready(function () {
       $.each(allIssues, function (i, issue) {
           $(".pastissuesContainer")
           .append("<h4>#" + issue.number +" - " + issue.title.split("|")[0] + "<span class='badge bg-success text-dark'>" + issue.title.split("|")[1].replace(" ", "").replace("_","-") + "</span></h4></br>")
-          .append("<h5>" + issue.body + "</h5></br><hr></hr>");
+          .append("<h5>" + issue.body +"</h5></br><a class='issues-a' target='_blank' href='https://github.com/erikd256/stfranciscusheverlee/issues/"+issue.number+"'>Lees meer ...</a><hr></hr>");
       });
   });
 });    
