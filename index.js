@@ -251,8 +251,8 @@ async function genAllReports() {
   }
 }
 
-var urlToGetAllOpenBugs = "https://api.github.com/repos/erikd256/stfranciscusheverlee/issues?state=open&labels=downtime";
-var urlToGetAllClosedBugs = "https://api.github.com/repos/erikd256/stfranciscusheverlee/issues?state=closed&labels=downtime";
+var urlToGetAllOpenBugs = "https://api.github.com/repos/stfranciscusparochieheverlee/stfranciscusheverlee/issues?state=open&labels=downtime";
+var urlToGetAllClosedBugs = "https://api.github.com/repos/stfranciscusparochieheverlee/stfranciscusheverlee/issues?state=closed&labels=downtime";
 
 $(document).ready(function () {
   $.getJSON(urlToGetAllOpenBugs, function (allIssues) {
@@ -263,7 +263,7 @@ $(document).ready(function () {
       $.each(allIssues, function (i, issue) {
           $(".issuesContainer")
               .append("<h4>#" + issue.number +" - " + issue.title.split("|")[0] + "<span class='badge bg-warning text-dark'>" + issue.title.split("|")[1].replace(" ", "").replace("_","-") + "</span></h4></br>")
-              .append("<h5>" + issue.body +"</h5></br><a target='_blank' class='issues-a' href='https://github.com/erikd256/stfranciscusheverlee/issues/"+issue.number+"'>Lees meer ...</a><hr></hr>");
+              .append("<h5>" + issue.body +"</h5></br><a target='_blank' class='issues-a' href='https://github.com/stfranciscusparochieheverlee/stfranciscusheverlee/issues/"+issue.number+"'>Lees meer ...</a><hr></hr>");
             });
   });
 });    
@@ -276,7 +276,7 @@ $(document).ready(function () {
       $.each(allIssues, function (i, issue) {
           $(".pastissuesContainer")
           .append("<h4>#" + issue.number +" - " + issue.title.split("|")[0] + "<span class='badge bg-success text-dark'>" + issue.title.split("|")[1].replace(" ", "").replace("_","-") + "</span></h4></br>")
-          .append("<h5>" + issue.body +"</h5></br><a class='issues-a' target='_blank' href='https://github.com/erikd256/stfranciscusheverlee/issues/"+issue.number+"'>Lees meer ...</a><hr></hr>");
+          .append("<h5>" + issue.body +"</h5></br><a class='issues-a' target='_blank' href='https://github.com/stfranciscusparochieheverlee/stfranciscusheverlee/issues/"+issue.number+"'>Lees meer ...</a><hr></hr>");
       });
   });
 });    
